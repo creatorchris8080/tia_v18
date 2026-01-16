@@ -55,7 +55,7 @@ Use **Windows Search** or **Settings** to locate the following:
 
 ## Installation Files
 
-- TIA Portal Installation Package (Google Drive):  
+- TIA Portal Installation Video Guide (Google Drive):  
   https://drive.google.com/file/d/1vsY7MDwcIw4QTer8_qkcoe9N0aMV8jny/view?usp=sharing
 
 **Download Password: plc4me.com**  
