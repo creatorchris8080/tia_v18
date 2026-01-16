@@ -20,19 +20,34 @@ Before installing TIA Portal, download and install the following:
 
 ---
 
-## ⚙️ Windows Configuration Settings
+## Windows Configuration Settings
 
 Apply the following settings **before installation**:
 
-### Enable
-- **.NET Framework 3.5**  
-  (Includes .NET 2.0 and 3.0)
+### Enable (.NET Framework 3.5)
+
+1. Press **Windows + R**
+2. Type: **optionalfeatures**
+3. Press **Enter**
+4. Check **.NET Framework 3.5 (includes .NET 2.0 and 3.0)**
+5. Click **OK** and wait for Windows to complete the installation
 
 ### Disable (Temporarily)
-- Reputation-Based Protection  
-- Core Isolation  
-- Virus & Threat Protection  
-- Wi-Fi connection  
+
+Use **Windows Search** or **Settings** to locate the following:
+
+- **Reputation-Based Protection**  
+- Windows Security → App & browser control → Reputation-based protection settings
+
+- **Core Isolation**  
+- Windows Security → Device security → Core isolation → Memory integrity (OFF)
+
+- **Virus & Threat Protection**  
+- Windows Security → Virus & threat protection → Manage settings → Real-time protection (OFF)
+
+- **Wi-Fi Connection**  
+- Click the Wi-Fi icon in the system tray → Turn Wi-Fi OFF  
+- (Recommended during installation)
 
 >  These steps help prevent freezing, installation errors, and licensing issues.
 
